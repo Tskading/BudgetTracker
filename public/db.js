@@ -49,7 +49,10 @@ function checkDb() {
       })
         .then(response => response.json())
         .then(() => {
-          transaction = db.transaction(["pending"], "readwrite");
+          const transaction = db.transaction(["pending"], "readwrite");
+
+          const store = transaction.objectStore("pending");
+
           store.clear();
         });
     }
