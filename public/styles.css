@@ -1,12 +1,22 @@
 body {
   font-size: 120%;
-  font-family: Arial;
+  font-family: 'Bangers';
+  justify-content: center;
+  background-image: url(https://cdn.pixabay.com/photo/2015/06/20/07/24/color-815551_960_720.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+title {
+  justify-content: center;
+  text-align: center;
 }
 
 button, input {
   font-size: 100%;
-  font-family: Arial;
-}
+  font-family: 'Bangers';}
 
 table {
   width: 100%;
@@ -35,6 +45,7 @@ tr:nth-child(even) {
 .total {
   font-size: 150%;
   text-decoration: underline;
+  font-family: 'Bangers';
 }
 
 .form {
@@ -48,4 +59,9 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+.budgetTracker {
+  justify-content: center;
+  text-align: center;
 }
